@@ -1,0 +1,45 @@
+/* reset to 0 */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222222;
+    margin: 10px;
+}
+
+.terminal {
+    padding: 10;
+}
+
+.window {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.input {
+    outline-color: #222222;
+    color: white;
+    border: none;
+    display: inline-block;
+}
+
+.user {
+    color: #56E880;
+}
+
+.output {
+    color: #4A92E8;
+}
+
+.tick {
+    color: #FF733D;
+}
