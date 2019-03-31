@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SERN</title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/terminal.js"></script>
 </head>
 <body>
     <header></header>
@@ -29,16 +28,18 @@
                 <p class="output">─────────────────────────────────────────────────────────────────────────<p>
             </div>
             <p class="output">Type `help` to get start.</p>
-            <p class="hidden">
+            <p class="cursor">
                 <span class="prompt">
                     <span class="user">guest</span>
                     <span class="tick">&ggg;</span>
                 </span>
-                <span contenteditable="true" class="input" id="input"></span>
+                <span contenteditable="true" id="input" class="input"></span>
             </p>
         </div>
     </div>
 
     <footer></footer>
 </body>
+<script src="js/structure.js"></script>
+<script type="text/javascript" src="js/terminal.js"></script>
 </html>
